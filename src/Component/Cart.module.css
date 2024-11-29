@@ -1,0 +1,37 @@
+
+.modalStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; 
+    max-width: 800px; 
+    max-height: 80vh;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 24;
+    padding: 16px; 
+    border-radius: 8px; 
+    overflow-y: auto;
+}
+
+.noItemsText {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.totalAmountBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0; 
+    padding: 0 16px; 
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px; 
+    gap: 16px; 
+}

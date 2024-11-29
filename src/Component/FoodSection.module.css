@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 0 10px; 
+}
+
+.pageInfo {
+    padding-right: 50px;
+    flex: 1 1 auto; 
+    text-align: center; 
+    margin: 10px 0; 
+}
+
+.arrowContainer {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto; 
+}
+
+.arrow {
+    cursor: pointer;
+    margin-right: 5px; 
+}
+
+.arrow.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
